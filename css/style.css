@@ -1,0 +1,166 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.search-form input,
+button,
+textarea,
+select {
+  font: inherit;
+  background-color: #ffff;
+  padding: 8px 35px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.search-filter {
+  margin: 60px 0 0 30px;
+}
+
+#cars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 50px;
+  margin: 60px 0px;
+}
+
+.cars-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 710px;
+  max-height: 100%;
+  margin: 30px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.cars-p {
+  margin: 0 30px;
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+  }
+
+}
+
+.cars-p ul {
+  padding: 30px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: justify;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.cars-card li {
+  display: flex;
+  flex-direction: row;
+}
+
+.cars-card li i {
+  margin: 5px 5px;
+}
+
+
+.cars-card img {
+  object-fit: cover;
+  height: auto;
+}
+
+.cars-card h2 {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.polo-mpi {
+  background: linear-gradient(#DCDAD3 0%, #DCDAD3 50%, white 50%, white 100%);
+  border-radius: 8px;
+}
+
+.polo-tsi {
+  background: linear-gradient(#B2B9B9 0%, #B2B9B9 50%, white 50%, white 100%);
+  border-radius: 8px;
+}
+
+.polo-sense {
+  background: linear-gradient(#242527 0%, #242527 50%, white 50%, white 100%);
+  border-radius: 8px;
+}
+
+.polo-comfortline {
+  background: linear-gradient(#B2B9B9 0%, #B2B9B9 50%, white 50%, white 100%);
+  border-radius: 8px;
+}
+
+.polo-highline {
+  background: linear-gradient(#9B3423 0%, #9B3423 50%, white 50%, white 100%);
+  border-radius: 8px;
+}
+
+.polo-gts {
+  background: linear-gradient(#9B3423 0%, #9B3423 50%, white 50%, white 100%);
+  border-radius: 8px;
+}
