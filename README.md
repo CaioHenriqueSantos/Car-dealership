@@ -14,7 +14,6 @@ Este é um projeto de uma aplicação web para simular uma concessionária de ca
 - Permitir que os usuários filtrem os carros por marca, modelo, ano, etc.
 - Visualizar detalhes de cada carro, incluindo preço, características, etc.
 - Permitir que os usuários solicitem mais informações sobre um carro específico.
-- ...
 
 ## Como Usar
 
