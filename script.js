@@ -17,7 +17,6 @@ function createElements(array) {
     }"> 
       </div>
       <h2>${element.nome}</h2>
-      <p>R$ ${element.price}</p>
     <ul>
     ${element.equipamentos
       .map((e) => `<li><i class="fa fa-check"></i> ${e}</li>`)
